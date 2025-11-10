@@ -12,8 +12,7 @@ pipeline {
     }
     stage('test'){
       steps
-      { 
-        echo "testing "
+      {
         sh python3 Exam.py
       }
     }
