@@ -14,6 +14,7 @@ pipeline {
       steps
       {
         sh "python3 Exam.py"
+        sh "java -jar A.jar"
       }
     }
   }  
